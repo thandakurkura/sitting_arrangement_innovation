@@ -1,0 +1,45 @@
+# ==============================================================================
+# LUMORA PLATFORM: PRODUCTION .GITIGNORE & BOT EXPLOITATION SHIELD
+# ==============================================================================
+
+# 1. Private Secrets, API Keys & Cryptographic Keystores
+secrets/
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# 2. Environment Variables & Local Configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# 3. Dependencies & Build Artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 4. Operating System & Editor Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 5. Scratchpads, Logs & Test Dumps
+scratch/
+test_*.js
+*.log
+.coverage/
+coverage/
+
+# 6. Antigravity & Agent Tool Artifacts
+.gemini/
